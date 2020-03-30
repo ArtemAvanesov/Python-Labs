@@ -8,7 +8,7 @@ number_of_data = 0
 # Чтение координат точек
 def read():
     # Данные с явным разбиением на 3 кластера
-    f=open("Лабораторные 1 курс/3_SOM/make_blobs.txt")
+    f=open("3_SOM/make_blobs.txt")
     # Данные посложнее
     #f=open("Лабораторные 1 курс/3_SOM/som.txt")
     one=f.read().split("\n")
